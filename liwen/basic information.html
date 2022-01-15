@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>泰thai飲料店</title>
+		<link type="text/css" rel="stylesheet" href="lounge.css" media="screen and (min-width: 481px)">
+		<link type="text/css" href="lounge-mobil.css" rel="stylesheet" media="screen and (max-width: 480px)">
+		<link type="text/css" href="lounge-print.css" rel="stylesheet" media="print">
+	</head>
+	
+	<body>
+		<div id="main">
+			<header>
+				<p><img src="images/TＨＡＩ.png" style="height:110px"alt="泰thai"></p>
+			</header>
+	
+			<nav>
+			<ul class="selected">
+				<li><a href="index.html">泰Thai介紹</a></li>
+				<li><a href="menu.html">菜單</a></li>
+				<li><a href="music.html">音樂</a></li>
+				<li><a href="direction.html">交通</a></li>
+				<li><a href="guestion.html">常見問題</a></li>
+				<li><a href="movie.html">影片欣賞</a></li>
+				<li><a href="basic information.html">會員加入</a></li>
+			</ul>
+			</nav>
+			<article>
+				<h3>會員加入</h3>
+				<p>
+					請填入基本資料，我們將會把第一線會員好康，報給你知<br>
+					即日起會員可以參加泰THAI飲料店限定抽獎<br>
+					獎品敬請期待
+				</p>
+				<form method="post" enctype="text/plain" action="">
+				<p>姓名：<input type="text" name="姓名" size="20" required>
+				<p>性別 : <input type="radio" name="gender" value="boy" checked> 男
+							<input type="radio" name="gender" value="girl"> 女
+				<p>出生年月日：<input type="date" name="出生年月日" size="20" required>
+				<p>手機號碼：<input type="tel" name="number" pattern="[0-9]{4}(\-[0-9]{6})" placeholder="0932-123456" size="20" title="0932-123456" required>
+				<p>Line ID :：<input type="text" name="Line ID :" size="20" required>
+				<p>e-mail：<input type="email" name="e-mail" size="20" required>
+				<p align="center"><input type="submit" value="送出">
+				<input type="reset" value="重寫">
+			</article>
+			<p>
+			&copy; 2021, Thailand Tea Company. All rights reserved..<br>
+			</p>
+		
+	</body>
+</html>
